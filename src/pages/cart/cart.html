@@ -33,7 +33,7 @@
       </ion-thumbnail>
       <h2>{{ item.product.title}}</h2>
       <p>{{item.qty}} - {{item.product.price}}</p>
-      <button ion-button color="danger" (click)="removeFromCart(item,i)">
+      <button ion-button clear item-right color="danger" (click)="removeFromCart(item,i)">
         <ion-icon name="close-cricle"></ion-icon>
       </button>
     </ion-item>
